@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  font-family: "Press Start 2P", cursive;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.reset-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.reset-btn {
+  background: white;
+  border: 0;
+  min-width: 200px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.title {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.hidden-answer-container {
+  flex: 1;
+  margin: 3rem 0;
+  position: relative;
+}
+
+.hidden-answer {
+  background: #eee;
+  color: #333;
+  font-size: 2rem;
+  width: 5rem;
+  padding: 1rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4rem 0;
+}
+
+hr {
+  border: 4px solid white;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.guess-number {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answer {
+  margin: 0.5rem 0;
+  text-align: center;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  width: 50%;
+  padding: 2rem;
+  font-size: 24px;
+}
+
+.check-btn {
+  margin: 0.5rem 0;
+  padding: 1rem;
+}
